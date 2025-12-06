@@ -319,3 +319,67 @@ main .container {
   border-radius: 5px;
 }
 /* main section design end */
+
+/* footer design start */
+#footer-section{
+  width: 950px;
+  height: 501px;
+  display: flex;
+  gap: 76px;
+  justify-content: center;
+  align-items: center;
+  padding: 84px 150px;
+  background-color: #FFF8F3;
+}
+.left-colume{
+  width: 50%;
+}
+.left-colume h1{
+  font-size: 22px;
+  font-weight: 800px;
+}
+.left-colume p{
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 300px;
+}
+.footer-icons-list .icons-list{
+  display: flex;
+  margin-top: 19px;
+  gap: 15px;
+}
+.right-colume{
+  width: 50%;
+}
+.right-colume h1{
+  font-size: 22px;
+  font-weight: 800px;
+  margin-bottom: 15px;
+}
+.right-colume input[type="text"], input[type="email"]{
+  width: 100%;
+  height: 34px;
+  display: block;
+  border: none;
+  font-size: 11px;
+  font-weight: 300px;
+}
+.right-colume textarea{
+  width: 100%;
+  height: 84px;
+  display: block;
+  border: none;
+}
+.right-colume .form-fiuld{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.copyright{
+  text-align: center;
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  justify-content: center;
+}
+/* footer design end */
