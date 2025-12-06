@@ -1,136 +1,321 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+US+Trad+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
- /* font-family: "Poppins", sans-serif; */
- /* font-weight: 200;
+/* font-family: "Poppins", sans-serif; */
+/* font-weight: 200;
   font-style: normal; */
-  h1, h2, h3, h4, h5, h6, a, p, ul, ol, li, span{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-  }
-  .main-header{
-    background-image: url("/images/developer.png");
-    background-repeat: no-repeat;
-    background-position: left top, right bottom;
-    width: 1255px;
-    height: 545px;
-  }
-/* nav-section design start*/
-  .r-style{
-    color: #FD6E0A;
-  }
-#navbar-section{
-    margin-top: 20px;
-    margin-top: 61px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+ul,
+ol,
+li,
+span {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
 
-  .nav{
-    display: flex;
-    justify-content: space-around;
-  }
-  .option-ul{
-    display: flex;
-    gap: 74px;
-    justify-content: center;
-    align-items: center;
-  }
-  .option-ul li a{
-    color: #474747;
-    font-family: "Poppins", sans-serif;
-  }
-  .btn{
-    width: 118px;
-    height: 41px;
-    background-color: #FD6E0A;
-    border-radius: 5px;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 20px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 800px;
-  }
+.main-header {
+  background-image: url("/images/developer.png");
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
+  width: 1255px;
+  height: 545px;
+}
+
+/* nav-section design start*/
+.r-style {
+  color: #FD6E0A;
+}
+
+#navbar-section {
+  margin-top: 20px;
+  margin-top: 61px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.option-ul {
+  display: flex;
+  gap: 74px;
+  justify-content: center;
+  align-items: center;
+}
+
+.option-ul li a {
+  color: #474747;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn {
+  width: 118px;
+  height: 41px;
+  background-color: #FD6E0A;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800px;
+}
+
 /* nav-section design end */
 
 /* banner section design start */
-#banner{
-    margin-top: 20px;
-    background-image: url("/images/header_bg.png");
-    background-repeat: no-repeat;
-    background-position: right bottom;
-}
-.container{
-    display: flex;
-    justify-content: space-between;
-}
-.container .welcome-txt{
-/* width: 384px; */
-/* margin-left: 200px; */
-height: 39px;
-font-family: "Poppins", sans-serif;
-font-size: 20px;
-color: #757474;
-}
-.container .banner-btn{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-top: 15px;
-}
-.container .banner-content .small-big-btn{
-    width: 160px;
-    height: 41px;
-    font-family: "Poppins", sans-serif;
-    font-size: 13px;
-    font-weight: 800px;
-    background-color: #FD6E0A;
-    border: none;
-    border-radius: 5px;
-}
-.container .banner-content .phone-btn{
-    width: 118px;
-    height: 41px;
-    font-family: "Poppins", sans-serif;
-    font-size: 13px;
-    font-weight: 800px;
-    /* background-color: #FD6E0A; */
-    border: 1px solid #FD6E0A;
-    border-radius: 5px;
-}
-.container .banner-content{
-    width: 462px;
-    height: 231px;
-    margin-left: 200px;
-    margin-top: 159px;
-}
-.container .banner-content .name{
-    font-family: "Poppins", sans-serif;
-    font-size: 55px;
-    color: #474747;
-}
-.container .banner-content .banner-description{
-    font-family: "Poppins", sans-serif;
-    font-size: 11px;
-    font-weight: 300px;
-    color: #757474;
-    margin-top: 13px;
+#banner {
+  margin-top: 20px;
+  background-image: url("/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 
-.container .banner-image{
-   display: flex;
-   margin-top: 50px;
-    
+.container {
+  display: flex;
+  justify-content: space-between;
 }
+
+.container .welcome-txt {
+  /* width: 384px; */
+  /* margin-left: 200px; */
+  height: 39px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #757474;
+}
+
+.container .banner-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.container .banner-content .small-big-btn {
+  width: 160px;
+  height: 41px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 800px;
+  background-color: #FD6E0A;
+  border: none;
+  border-radius: 5px;
+}
+
+.container .banner-content .phone-btn {
+  width: 118px;
+  height: 41px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 800px;
+  /* background-color: #FD6E0A; */
+  border: 1px solid #FD6E0A;
+  border-radius: 5px;
+}
+
+.container .banner-content {
+  width: 462px;
+  height: 231px;
+  margin-left: 200px;
+  margin-top: 159px;
+}
+
+.container .banner-content .name {
+  font-family: "Poppins", sans-serif;
+  font-size: 55px;
+  color: #474747;
+}
+
+.container .banner-content .banner-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-weight: 300px;
+  color: #757474;
+  margin-top: 13px;
+}
+
+.container .banner-image {
+  display: flex;
+  margin-top: 50px;
+
+}
+
 /* banner section design end */
 
 
 /* main section design start */
-/* #main-section{
-    margin-top: 100px;
+main .container {
+  background-color: #FFF8F3;
+  max-width: 900px;
+  height: 357px;
+  margin: 130px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+/* main .container .text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 } */
-#main-section .container{
-    width: 900px;
-    height: 357px;
+.text h1 {
+  font-family: "poppins", sans-serif;
+  font-size: 27px;
+  color: #181818;
+  font-weight: 800px;
+  text-align: center;
+  margin-bottom: 19px;
+}
+
+.text p {
+  font-family: "poppins", sans-serif;
+  color: #757575;
+  font-size: 11px;
+  font-weight: 300px;
+  line-height: 18px;
+  text-align: center;
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 19px;
+}
+.about-items .title{
+  font-size: 14px;
+  font-family: "poppins", sans-serif;
+  color: #757474;
+  line-height: 19px;
+  font-weight: 300px;
+}
+.about-items .description{
+  font-size: 14px;
+  font-family: "poppins", sans-serif;
+  color: #1b1a1a;
+  font-weight: 800px;
+}
+
+/* skills section design start */
+
+
+
+/* skills section design end */
+.skill-title{
+  text-align: center;
+  font-family: "poppins", sans-serif;
+  font-size: 25px;
+  color: #181818;
+  font-weight: 800px;
+}
+.skill-description{
+  text-align: center;
+  font-family: "poppins", sans-serif;
+  font-size: 12px;
+  color: #757474;
+  font-weight: 300px;
+  margin-top: 19px;
+  line-height: 19px;
+}
+
+.skill{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    gap: 15px;
+}
+.skill .skill-item{
+  width: 210px;
+  height: 245px;
+  background-color: #e7e5e5;
+  border-radius: 5px;
+}
+.skill .skill-item .skill-heading{
+  margin: 0 19px;
+}
+.skill .skill-item .skill-des{
+  margin: 19px 19px;
+  font-size: 12px;
+  font-family: "poppins", sans-serif;
+  font-weight: 300px;
+}
+
+/* Resume Section design start */
+.Resume{
+  margin-bottom: 70px;
+}
+.Resume-container{
+  display: flex;
+  margin-top: 73px;
+  justify-content: center;
+  gap: 46px;
+}
+.Resume-container .Resume-child{
+  width: 402px;
+  height: 113px;
+}
+
+
+/* style share */
+.FontStyle{
+  font-family: "poppins", sans-serif;
+}
+.dark-2{
+  color: #474747;
+}
+.dark-3{
+  color: #757575;
+}
+.dark-1{
+  color: #181818;
+}
+/* style share */
+
+
+.Resume-container .Resume-child .Resume-heading{
+  font-family: "poppins", sans-serif;
+  font-size: 19px;
+  color: #181818;
+  font-weight: 800px;
+  margin-bottom: 19px;
+}
+.Resume-second-heading{
+  font-size: 16px;
+  font-weight: 800px;
+  margin-bottom: 10px;
+}
+.univercity{
+  font-size: 13px;
+  font-weight: 400px;
+  margin-bottom: 13px;
+}
+.Resume-description{
+  font-size: 10px;
+  font-weight: 300px;
+}
+.download-cv{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.Download-btn{
+  width: 160px;
+  height: 40px;
+  color: white;
+  background-color: #FD6E0A;
+  border: none;
+  border-radius: 5px;
 }
 /* main section design end */
